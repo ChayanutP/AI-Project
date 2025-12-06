@@ -1,0 +1,12 @@
+model = DecisionTreeClassifier(
+    max_depth=5,
+    min_samples_split=100, #เพิ่มจาก 50 -> 100 
+    min_samples_leaf=5,
+    random_state=42
+)
+
+
+Train Accuracy : 0.815
+Validation Accuracy  : 0.82
+
+ค่า Accuracy ใกล้กัน ไม่ overfitting
