@@ -1,0 +1,12 @@
+Train Accuracy: 1.0
+Test Accuracy: 0.66
+              precision    recall  f1-score   support
+
+           0       0.79      0.74      0.77       150
+           1       0.35      0.42      0.38        50
+
+    accuracy                           0.66       200
+   macro avg       0.57      0.58      0.57       200
+weighted avg       0.68      0.66      0.67       200
+
+Overfitting จำข้อมูลฝึกได้หมด แต่โมเดลทำนาย stroke:1 ผิดเยอะ
