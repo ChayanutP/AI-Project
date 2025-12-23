@@ -1,0 +1,16 @@
+Train Accuracy: 0.7925
+Test Accuracy: 0.79
+              precision    recall  f1-score   support
+
+           0       0.80      0.95      0.87       150
+           1       0.68      0.30      0.42        50
+
+    accuracy                           0.79       200
+   macro avg       0.74      0.63      0.64       200
+weighted avg       0.77      0.79      0.76       200
+
+
+class 1 recall = 0.30 -> ทายพลาด 70%
+แต่ class 0 recall 0.95 
+
+แสดงว่ามี high bias + underfit 
