@@ -1,0 +1,9 @@
+my_C = 1           # <--- แก้ไขค่า C ตรงนี้ (เช่น 0.1, 1, 100)
+my_gamma = 1  # <--- แก้ไขค่า gamma ตรงนี้ (เช่น 0.1, 0.01 หรือ 'scale')
+my_kernel = 'linear'   # <--- แก้ไข kernel ตรงนี้ (เช่น 'linear', 'poly')
+test_size = 0.2
+
+Test Accuracy: 0.8513
+ROC AUC: 0.8747
+
+linear + C=1 ทำให้ accuracy ดีขึ้น แต่โมเดลยัง bias ต่อคลาสใหญ่ และยังตรวจจับคลาส 0 ได้ไม่ดีเท่าไหร่
