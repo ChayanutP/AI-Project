@@ -1,0 +1,10 @@
+my_C = 1           # <--- แก้ไขค่า C ตรงนี้ (เช่น 0.1, 1, 100)
+my_gamma = 'scale'  # <--- แก้ไขค่า gamma ตรงนี้ (เช่น 0.1, 0.01 หรือ 'scale')
+my_kernel = 'rbf'
+test_size = 0.4
+
+Final Results for C=1, gamma=scale, kernel=rbf:
+Test Accuracy: 0.8667
+ROC AUC: 0.8711
+
+RBF + C=1 ให้ผลดีที่สุดในสามชุด โมเดลสมดุล ไม่ bias และแยกคลาสได้ดีโดยรวม
