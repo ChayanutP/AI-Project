@@ -1,0 +1,9 @@
+my_C = 0.1           # <--- แก้ไขค่า C ตรงนี้ (เช่น 0.1, 1, 100)
+my_gamma = 'scale'  # <--- แก้ไขค่า gamma ตรงนี้ (เช่น 0.1, 0.01 หรือ 'scale')
+my_kernel = 'poly'   # <--- แก้ไข kernel ตรงนี้ (เช่น 'linear', 'poly')
+test_size = 0.2
+
+Test Accuracy: 0.7897
+ROC AUC: 0.8719
+
+underfitting มีการ bias ไปทางclass 1 อย่างชัดเจน
